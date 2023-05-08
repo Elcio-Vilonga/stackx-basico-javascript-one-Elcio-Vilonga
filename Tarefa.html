@@ -1,0 +1,61 @@
+<script>
+// let a = prompt("Digite o Primeiro numero: ");
+// let b = prompt("Digite o Segundo numero: ");
+
+// let a = 35;
+// let b = 5;
+// let num = -9;
+// let numero = 32;
+
+function Soma(a, b){
+    return a + b;
+}
+function Divisao(a, b){
+    return a / b;
+}
+function Multiplicacao(a, b){
+    return a * b;
+}
+function subtracao(a, b){
+    return a - b;
+}
+function Resto(a, b){
+    return a % b;
+}
+function Max(a, b){
+    let max = 0;
+    if(a > b){
+        max = a;
+    }else if(a < b){
+        max = b;
+    }else{
+        console.log(a ," = ", b);
+    }
+    return max;
+}
+function strConcat(a, b) {
+    // a = 'Ola';
+    // b = 'Mundo';
+    return `${a}  ${b}!`;
+}
+function retornaNumero(numero) {
+    if(numero > 10){
+        console.log("Maior que 10");
+    }else if(numero == 10){
+        console.log("Igual a 10");
+    }else{
+        console.log("Menor que 10");
+    }
+    return numero;
+}
+function ehPositivo(num){
+    if(num > 0 ){
+        console.log("O numero e Positivo.");
+    }else if(num < 0){
+        console.log("O numero e Negativo.");
+    }else{
+        console.log("O numero e neutro.");
+    }
+    return num > 0;
+}
+</script>
